@@ -59,3 +59,7 @@ $ cf restart
 ~~~
 
 Consult the [Pivotal Cloud Foundry documentation](http://docs.pivotal.io/) for more details.
+
+Home Page
+
+![Home Page](img/home.png "Home Page")
