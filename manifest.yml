@@ -6,10 +6,11 @@ applications:
   host: hello-spring-cloud-${random-word}
   domain: cfapps.io
   path: target/hello-spring-cloud-0.0.1.BUILD-SNAPSHOT.jar
-#  services:
-#      - postgres-service
-#      - amqp-service
-#      - mongodb-service
-#      - redis-service
+  services:
+  - postgres-service
+  - amqp-service
+  - mongodb-service
+  - redis-service
+  - my-rabbitmq
     env:
       SPRING_PROFILES_DEFAULT: cloud
